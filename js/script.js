@@ -41,5 +41,5 @@ frecciaSuEl.addEventListener("click", function() {
     // ° mostrare l'immagine del array associata a quel valore di indice
 
     immagineEl.src = immagini[index];
-
+//push prova
 });
