@@ -1,0 +1,37 @@
+.caro-cont {
+    /* test */
+    /* background-color: rgb(203, 212, 212); */
+    max-width: 900px;
+}
+
+#carosello {
+    position: relative;
+}
+
+.frecce {
+    padding: 8px;
+    opacity: .7;
+}
+
+.frecce:hover {
+    opacity: 5;
+}
+
+.frecce button {
+    border: none;
+    border-radius: 50%;
+}
+
+#frecciaSu{
+    position: absolute;
+    top: 1px;
+}
+
+#img-cnt img{
+    width: 45%;
+}
+
+#frecciaGiu{
+    position: absolute;
+    bottom: 1px;
+}
