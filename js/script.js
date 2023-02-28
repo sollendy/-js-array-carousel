@@ -32,7 +32,7 @@ let immagineEl = document.getElementById("img-interattiva");
 let index = 0;
 
 // verifico inserendo nel parametro src il valore della prima img del array.
-immagine.src = immagini[index];
+immagineEl.src = immagini[index];
 
 // inizio a programmare l'evento click
 frecciaSuEl.addEventListener("click", function() {
@@ -41,5 +41,13 @@ frecciaSuEl.addEventListener("click", function() {
     // ° mostrare l'immagine del array associata a quel valore di indice
 
     immagineEl.src = immagini[index];
-//push prova
+});
+
+//ripeto ma rovesciando le funzioni
+
+frecciaGiuEl.addEventListener("click", function() {
+
+    index--;
+
+    immagineEl.src = immagini[index];
 });
