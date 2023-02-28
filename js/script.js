@@ -15,14 +15,23 @@
 // - preparare l'array con le immagini (sperando di capire come prendere quelle presenti nella consegna)
 
 const immagini = [
-    "img/01.webp",
-    "img/02.webp",
-    "img/03.webp",
-    "img/04.webp",
-    "img/05.webp",
+    "consegna/img/01.webp",
+    "consegna/img/02.webp",
+    "consegna/img/03.webp",
+    "consegna/img/04.webp",
+    "consegna/img/05.webp",
 ];
 
 // tradurre in variabili gli elem html
 let frecciaSu = document.getElementById("freccia-su");
 let frecciaGiu = document.getElementById('freccia-giù');
-let 
+let immagine = document.getElementById("img-interattiva");
+
+// creare una variabile di indice
+
+let index = 0;
+
+// verifico inserendo nel parametro src il valore della prima img del array.
+immagine.src = immagini[index];
+
+// inizio a programmare l'evento click
