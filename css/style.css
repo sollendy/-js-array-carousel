@@ -22,7 +22,7 @@
     border-radius: 50%;
 }
 
-#frecciaSu{
+#freccia-su{
     position: absolute;
     top: 1px;
 }
@@ -31,7 +31,7 @@
     width: 45%;
 }
 
-#frecciaGiu{
+#freccia-giu{
     position: absolute;
     bottom: 1px;
 }
