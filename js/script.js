@@ -23,9 +23,9 @@ const immagini = [
 ];
 
 // tradurre in variabili gli elem html
-let frecciaSu = document.getElementById("freccia-su");
-let frecciaGiu = document.getElementById('freccia-giù');
-let immagine = document.getElementById("img-interattiva");
+let frecciaSuEl = document.getElementById("freccia-su");
+let frecciaGiuEl = document.getElementById('freccia-giù');
+let immagineEl = document.getElementById("img-interattiva");
 
 // creare una variabile di indice
 
@@ -35,3 +35,11 @@ let index = 0;
 immagine.src = immagini[index];
 
 // inizio a programmare l'evento click
+frecciaSuEl.addEventListener("click", function() {
+    //aumento il valore dell'indice
+    index++;
+    // ° mostrare l'immagine del array associata a quel valore di indice
+
+    immagineEl.src = immagini[index];
+
+});
